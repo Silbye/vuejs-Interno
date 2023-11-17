@@ -473,6 +473,11 @@ a {
     gap: 25px;
     font-size: 22px;
     position: relative;
+    a {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
 }
 
 .latest-post-title {
@@ -496,9 +501,6 @@ a {
 }
 
 .latest-post-button {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     border-radius: 100%;
     width: 52px;
     height: 52px;
